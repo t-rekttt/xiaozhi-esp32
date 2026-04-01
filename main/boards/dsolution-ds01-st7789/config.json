@@ -1,0 +1,9 @@
+{
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "dsolution-ds01-st7789",
+            "sdkconfig_append": []
+        }
+    ]
+}

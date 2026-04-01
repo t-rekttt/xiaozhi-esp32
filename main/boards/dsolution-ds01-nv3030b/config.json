@@ -1,0 +1,9 @@
+{
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "dsolution-ds01-nv3030b",
+            "sdkconfig_append": []
+        }
+    ]
+}

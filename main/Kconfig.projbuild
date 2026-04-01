@@ -527,6 +527,12 @@ choice BOARD_TYPE
     config BOARD_TYPE_HU_087
         bool "HU-087"
         depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_DSOLUTION_DS01_ST7789
+        bool "D Solution DS-01 (ST7789P)"
+        depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_DSOLUTION_DS01_NV3030B
+        bool "D Solution DS-01 (NV3030B+ES8311)"
+        depends on IDF_TARGET_ESP32S3
 endchoice
 
 choice
