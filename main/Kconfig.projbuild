@@ -281,6 +281,9 @@ choice BOARD_TYPE
     config BOARD_TYPE_WAVESHARE_ESP32_C6_TOUCH_AMOLED_2_06
         bool "Waveshare ESP32-C6-Touch-AMOLED-2.06"
         depends on IDF_TARGET_ESP32C6
+    config BOARD_TYPE_WAVESHARE_ESP32_C6_TOUCH_AMOLED_2_16
+        bool "Waveshare ESP32-C6-Touch-AMOLED-2.16"
+        depends on IDF_TARGET_ESP32C6
     config BOARD_TYPE_WAVESHARE_ESP32_S3_TOUCH_AMOLED_1_75
         bool "Waveshare ESP32-S3-Touch-AMOLED-1.75"
         depends on IDF_TARGET_ESP32S3
@@ -394,6 +397,9 @@ choice BOARD_TYPE
         depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_LILYGO_T_DISPLAY_S3_PRO_MVSRLORA_NO_BATTERY
         bool "LILYGO T-Display-S3-Pro-MVSRLora_No_Battery"
+        depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_LILYGO_T_DISPLAY_S3
+        bool "LILYGO T-Display-S3"
         depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_LILYGO_T_DISPLAY_P4
         bool "LILYGO T-Display-P4"
@@ -532,6 +538,9 @@ choice BOARD_TYPE
         depends on IDF_TARGET_ESP32S3
     config BOARD_TYPE_DSOLUTION_DS01_NV3030B
         bool "D Solution DS-01 (NV3030B+ES8311)"
+        depends on IDF_TARGET_ESP32S3
+    config BOARD_TYPE_Freenove_ESP32S3_DISPLAY_2_8_LCD
+        bool "Freenove ESP32S3 Display 2.8 LCD"
         depends on IDF_TARGET_ESP32S3
 endchoice
 
